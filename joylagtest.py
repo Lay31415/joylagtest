@@ -38,7 +38,7 @@ def main():
                         elapsed_time = (time.time() - start_time) * 1000
                         elapsed_times.append(elapsed_time)
                         count += 1
-                        print(f"{count:4d} current: {elapsed_time:.2f} ms  avg: {sum(elapsed_times)/len(elapsed_times):.2f} ms  min: {min(elapsed_times):.2f}  max: {max(elapsed_times):.2f} ms")
+                        print(f"{count:4d} current: {elapsed_time:.2f} ms  avg: {sum(elapsed_times)/len(elapsed_times):.2f} ms  min: {min(elapsed_times):.2f} ms  max: {max(elapsed_times):.2f} ms")
                         break
                     
                 # 100ms経過してもボタンが押されなかった場合、HIGHに戻す
